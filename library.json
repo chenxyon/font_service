@@ -1,0 +1,13 @@
+{
+    "name": "font_service",
+    "version": "1.0.0",
+    "description": "统一字体服务组件：内置/跃宋/W25Qxx 外挂 Flash 三种 16x16 点阵字库（FontService 抽象基类 + 工厂），支持字模直绘 LCD（FontDisplay）",
+    "keywords": "font, chinese, glyph, w25q, lcd",
+    "author": "chenxyon",
+    "license": "MIT",
+    "frameworks": "espidf",
+    "platforms": ["espressif32"],
+    "dependencies": {
+        "w25qxx_driver": "*"
+    }
+}
